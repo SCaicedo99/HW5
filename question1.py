@@ -327,7 +327,7 @@ E.g.:
                     dictionary_of_betweenness[nb] += 1
                 else:
                     dictionary_of_betweenness[nb] = 1
-                    
+
         for vert in dictionary_of_betweenness:
             if dictionary_of_betweenness[vert] > sum:
                 max_bc_node_id = vert
